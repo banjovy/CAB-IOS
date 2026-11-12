@@ -11,6 +11,13 @@
 		A1000012000000000000001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002000000000000001 /* ContentView.swift */; };
 		A1000013000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1000003000000000000001 /* Assets.xcassets */; };
 		A1000014000000000000001 /* CABTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000004000000000000001 /* CABTests.swift */; };
+		A1000212000000000000001 /* DecodingHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000202000000000000001 /* DecodingHelpers.swift */; };
+		A1000213000000000000001 /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000203000000000000001 /* Show.swift */; };
+		A1000214000000000000001 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000204000000000000001 /* Episode.swift */; };
+		A1000215000000000000001 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000205000000000000001 /* Resources.swift */; };
+		A1000216000000000000001 /* NowPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000206000000000000001 /* NowPlaying.swift */; };
+		A1000217000000000000001 /* ModelDecodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000207000000000000001 /* ModelDecodingTests.swift */; };
+		A1000218000000000000001 /* Fixtures in Resources */ = {isa = PBXBuildFile; fileRef = A1000208000000000000001 /* Fixtures */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +35,13 @@
 		A1000002000000000000001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1000003000000000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1000004000000000000001 /* CABTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CABTests.swift; sourceTree = "<group>"; };
+		A1000202000000000000001 /* DecodingHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodingHelpers.swift; sourceTree = "<group>"; };
+		A1000203000000000000001 /* Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
+		A1000204000000000000001 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		A1000205000000000000001 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		A1000206000000000000001 /* NowPlaying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlaying.swift; sourceTree = "<group>"; };
+		A1000207000000000000001 /* ModelDecodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDecodingTests.swift; sourceTree = "<group>"; };
+		A1000208000000000000001 /* Fixtures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fixtures; sourceTree = "<group>"; };
 		A1000040000000000000001 /* CAB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1000041000000000000001 /* CABTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CABTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -64,15 +78,30 @@
 			children = (
 				A1000001000000000000001 /* CABApp.swift */,
 				A1000002000000000000001 /* ContentView.swift */,
+				A1000201000000000000001 /* Models */,
 				A1000003000000000000001 /* Assets.xcassets */,
 			);
 			path = CAB;
+			sourceTree = "<group>";
+		};
+		A1000201000000000000001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1000202000000000000001 /* DecodingHelpers.swift */,
+				A1000203000000000000001 /* Show.swift */,
+				A1000204000000000000001 /* Episode.swift */,
+				A1000205000000000000001 /* Resources.swift */,
+				A1000206000000000000001 /* NowPlaying.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		A1000062000000000000001 /* CABTests */ = {
 			isa = PBXGroup;
 			children = (
 				A1000004000000000000001 /* CABTests.swift */,
+				A1000207000000000000001 /* ModelDecodingTests.swift */,
+				A1000208000000000000001 /* Fixtures */,
 			);
 			path = CABTests;
 			sourceTree = "<group>";
@@ -112,6 +141,7 @@
 			buildPhases = (
 				A1000081000000000000001 /* Sources */,
 				A1000051000000000000001 /* Frameworks */,
+				A1000220000000000000001 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -170,6 +200,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A1000220000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000218000000000000001 /* Fixtures in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -179,6 +217,11 @@
 			files = (
 				A1000012000000000000001 /* ContentView.swift in Sources */,
 				A1000011000000000000001 /* CABApp.swift in Sources */,
+				A1000212000000000000001 /* DecodingHelpers.swift in Sources */,
+				A1000213000000000000001 /* Show.swift in Sources */,
+				A1000214000000000000001 /* Episode.swift in Sources */,
+				A1000215000000000000001 /* Resources.swift in Sources */,
+				A1000216000000000000001 /* NowPlaying.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1000014000000000000001 /* CABTests.swift in Sources */,
+				A1000217000000000000001 /* ModelDecodingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

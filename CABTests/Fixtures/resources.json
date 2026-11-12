@@ -1,0 +1,848 @@
+{
+  "generatedAt": "2026-11-11T14:16:10.780883Z",
+  "sources": [
+    {
+      "id": "fortis-news",
+      "title": "Fortis Institute",
+      "url": "https://fortisinstitute.org",
+      "category": "news",
+      "logo": "https://assets.cabroadcasting.com/resource_images/fortis-news.png"
+    },
+    {
+      "id": "protestia",
+      "title": "Protestia",
+      "url": "https://protestia.com",
+      "category": "news",
+      "logo": "https://assets.cabroadcasting.com/resource_images/protestia.png"
+    },
+    {
+      "id": "ligonier",
+      "title": "Ligonier Ministries",
+      "url": "https://www.ligonier.org",
+      "category": "teaching",
+      "logo": "https://assets.cabroadcasting.com/resource_images/ligonier.png"
+    },
+    {
+      "id": "christian-worldview",
+      "title": "The Christian Worldview",
+      "url": "https://thechristianworldview.org",
+      "category": "teaching",
+      "logo": "https://assets.cabroadcasting.com/resource_images/christian-worldview.png"
+    },
+    {
+      "id": "crossexamined",
+      "title": "CrossExamined",
+      "url": "https://crossexamined.org",
+      "category": "apologetics",
+      "logo": "https://assets.cabroadcasting.com/resource_images/crossexamined.png"
+    },
+    {
+      "id": "apologetics-press",
+      "title": "Apologetics Press",
+      "url": "https://apologeticspress.org",
+      "category": "apologetics",
+      "logo": "https://assets.cabroadcasting.com/resource_images/apologetics-press.png"
+    },
+    {
+      "id": "alex-mcfarland",
+      "title": "Alex McFarland",
+      "url": "https://alexmcfarland.com",
+      "category": "apologetics",
+      "logo": "https://assets.cabroadcasting.com/resource_images/alex-mcfarland-v2.png"
+    }
+  ],
+  "categories": [
+    {
+      "id": "news",
+      "label": "News & Commentary",
+      "order": 1
+    },
+    {
+      "id": "teaching",
+      "label": "Teaching & Devotional",
+      "order": 2
+    },
+    {
+      "id": "apologetics",
+      "label": "Apologetics",
+      "order": 3
+    }
+  ],
+  "items": [
+    {
+      "id": "alex-mcfarland-8c63939d8b7a",
+      "sourceId": "alex-mcfarland",
+      "category": "apologetics",
+      "title": "Standing for Truth with Courage and Grace",
+      "excerpt": "Elections have consequences, but no election determines what is true. Campaigns end, ballots are counted, political signs come down, and the news cycle moves to the next controversy. Some people […]",
+      "url": "https://alexmcfarland.com/standing-for-truth-with-courage-and-grace/",
+      "author": "Alex McFarland",
+      "publishedAt": "2026-11-11T18:58:17+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "fortis-news-569d66c6eeab",
+      "sourceId": "fortis-news",
+      "category": "news",
+      "title": "What Jupiter’s Moons Are Telling Us About Creation",
+      "excerpt": "Four tiny points of light changed astronomy forever",
+      "url": "https://fortisinstitute.org/what-jupiters-moons-are-telling-us-about-creation/",
+      "author": "Isaac Buehler",
+      "publishedAt": "2026-11-11T16:00:00+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "fortis-news-50b1e3545758",
+      "sourceId": "fortis-news",
+      "category": "news",
+      "title": "Why Even Good Desires Can Destroy Your Marriage",
+      "excerpt": "What if the biggest problem in your marriage",
+      "url": "https://fortisinstitute.org/why-even-good-desires-can-destroy-your-marriage/",
+      "author": "Isaac Buehler",
+      "publishedAt": "2026-11-11T16:00:00+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "fortis-news-aa225b0b7e93",
+      "sourceId": "fortis-news",
+      "category": "news",
+      "title": "Google Adds A Catch To School Search & FAA Sets A Deadline For ’80s Tech",
+      "excerpt": "___ Thanks for listening! Fortis News would not",
+      "url": "https://fortisinstitute.org/google-adds-a-catch-to-school-search-faa-sets-a-deadline-for-80s-tech/",
+      "author": "Isaac Buehler",
+      "publishedAt": "2026-11-11T16:00:00+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "protestia-10db3596d0a4",
+      "sourceId": "protestia",
+      "category": "news",
+      "title": "Apologist Wes Huff Accused of Plagiarism, Admits ‘The citation use is troublesome.’",
+      "excerpt": "Christian apologist and historian Wesley Huff has responded to accusations of plagiarism against him by Dan McClellan, admitting blame while also adding context to his actions. Huff is the Central Canada Director for Apologetics Canada and has ‘participated in numerous public dialogues, debates, and interfaith events on issues of faith,...",
+      "url": "https://protestia.com/2026/11/11/apologist-wes-huff-accused-of-plagiarism-admits-the-citation-use-is-troublesome/",
+      "author": "Staff Writer",
+      "publishedAt": "2026-11-11T14:30:00+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "protestia-007e311a189f",
+      "sourceId": "protestia",
+      "category": "news",
+      "title": "Exclusive: Steve Lawson Restored To Ministry Nearly ONE YEAR Ago",
+      "excerpt": "One year, two months, and six days after Trinity Bible Church announced that Steven J. Lawson was disqualified from ministry for having a “sinful relationship” with a woman nearly 45 years his junior, he was restored to ministry by his new church elders, according to documents obtained exclusively by Protestia....",
+      "url": "https://protestia.com/2026/11/11/exclusive-steve-lawson-restored-to-ministry-nearly-one-year-ago/",
+      "author": "Staff Writer",
+      "publishedAt": "2026-11-11T13:33:50+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "crossexamined-b64cfb1fb74e",
+      "sourceId": "crossexamined",
+      "category": "apologetics",
+      "title": "Was Mohammed Prophesied in the Bible?",
+      "excerpt": "“I came across the claim that Muhammad and other religious people like Buddha were referenced in the Bible, and I was hoping you could give me your thoughts. I compiled all the reasons why they believe this. I am not theologically knowledgeable enough to comprehend this, but it has been...",
+      "url": "https://crossexamined.org/was-mohammed-prophesied-in-the-bible/",
+      "author": "Guest",
+      "publishedAt": "2026-11-11T08:00:07+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "ligonier-786520bf7e2e",
+      "sourceId": "ligonier",
+      "category": "teaching",
+      "title": "Nurturing a Love for God in Your Family",
+      "excerpt": "Not long after having children, I realized the incredible impact that parents have on what our children grow to love. From sports teams to snacks to movies to the ways we spend our days, our children are naturally drawn to love the things that we love. For Christian parents, our...",
+      "url": "https://learn.ligonier.org/articles/nurturing-love-for-god-in-your-family",
+      "author": "Aubrey Coleman",
+      "publishedAt": "2026-11-11T04:00:00",
+      "thumbnail": "https://images.ctfassets.net/ukqj0ybhazqg/3pHtWBVXvTRJ0mTby2NzJj/8234d0fee10f71a1cbf784695cfb29e1/Passed_2560.jpg"
+    },
+    {
+      "id": "crossexamined-22df4ac1b634",
+      "sourceId": "crossexamined",
+      "category": "apologetics",
+      "title": "Who’s to Blame for the Election? The Only Stat You Need to Know – PLUS Q&A",
+      "excerpt": "With so much attention on gas prices, Trump, and the War on Iran, is everyone totally missing the plot when it comes to the 2026 election results? In this midweek episode, Frank examines what went wrong for conservative voters and reveals the one surprising statistic you need to know about...",
+      "url": "https://crossexamined.org/whos-to-blame-for-the-election-the-only-stat-you-need-to-know-plus-qa/",
+      "author": "Frank Turek",
+      "publishedAt": "2026-11-10T21:18:24+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "fortis-news-272e14719841",
+      "sourceId": "fortis-news",
+      "category": "news",
+      "title": "Can You Pass The Bible Quiz 65% Failed? + Why TikTok Is Drawing Gen Z To Rome",
+      "excerpt": "Can you pass the basic Bible quiz that",
+      "url": "https://fortisinstitute.org/can-you-pass-the-bible-quiz-65-failed-why-tiktok-is-drawing-gen-z-to-rome/",
+      "author": "Isaac Buehler",
+      "publishedAt": "2026-11-10T21:00:00+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "fortis-news-6d93633d522a",
+      "sourceId": "fortis-news",
+      "category": "news",
+      "title": "Are You Following The Real Jesus Or Your Version?",
+      "excerpt": "Are you following the Jesus revealed in Scripture",
+      "url": "https://fortisinstitute.org/are-you-following-the-real-jesus-or-your-version/",
+      "author": "Isaac Buehler",
+      "publishedAt": "2026-11-10T16:00:00+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "fortis-news-a3b0b344c1b4",
+      "sourceId": "fortis-news",
+      "category": "news",
+      "title": "Canada Proposes Advance MAID Requests & Trump’s New Chief Pledges ‘Total Devotion’",
+      "excerpt": "___ Thanks for listening! Fortis News would not",
+      "url": "https://fortisinstitute.org/canada-proposes-advance-maid-requests-trumps-new-chief-pledges-total-devotion/",
+      "author": "Isaac Buehler",
+      "publishedAt": "2026-11-10T16:00:00+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "ligonier-d28f46f1cf79",
+      "sourceId": "ligonier",
+      "category": "teaching",
+      "title": "Learning Contentment",
+      "excerpt": "I spoke with a close friend who had gone through a period marked by personal disappointments, discouragements, unfair treatment, and even false rumors about his character and Christian service. I was moved and impressed by his response: “My great consolation is simply this,” he said, “Godliness with contentment is great...",
+      "url": "https://learn.ligonier.org/articles/learning-contentment",
+      "author": "Sinclair Ferguson",
+      "publishedAt": "2026-11-10T04:00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "fortis-news-7def79b5f754",
+      "sourceId": "fortis-news",
+      "category": "news",
+      "title": "After A Blue Wave, What Should Christians Do Next?",
+      "excerpt": "When the headlines make you wonder where the",
+      "url": "https://fortisinstitute.org/after-a-blue-wave-what-should-christians-do-next/",
+      "author": "Isaac Buehler",
+      "publishedAt": "2026-11-09T21:00:00+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "fortis-news-a68aef7d502f",
+      "sourceId": "fortis-news",
+      "category": "news",
+      "title": "ChatGPT Advice Leads To Woman’s Death & All-Ages Drag Group Talks Autism",
+      "excerpt": "___ Thanks for listening! Fortis News would not",
+      "url": "https://fortisinstitute.org/chatgpt-advice-leads-to-womans-death-all-ages-drag-group-talks-autism/",
+      "author": "Isaac Buehler",
+      "publishedAt": "2026-11-09T16:02:46+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "fortis-news-6f722bd11783",
+      "sourceId": "fortis-news",
+      "category": "news",
+      "title": "Why Biblical Submission Is A Blessing, Not A Burden | 1 Peter 3:1–6",
+      "excerpt": "Is biblical submission oppressive, or could it actually",
+      "url": "https://fortisinstitute.org/why-biblical-submission-is-a-blessing-not-a-burden-1-peter-31-6/",
+      "author": "Isaac Buehler",
+      "publishedAt": "2026-11-09T16:00:00+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "fortis-news-568ea8bfa6e3",
+      "sourceId": "fortis-news",
+      "category": "news",
+      "title": "Find Purpose In The Life You Already Have | Todd Friel",
+      "excerpt": "What does serving Jesus look like in the",
+      "url": "https://fortisinstitute.org/find-purpose-in-the-life-you-already-have-todd-friel/",
+      "author": "Isaac Buehler",
+      "publishedAt": "2026-11-09T16:00:00+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "alex-mcfarland-fa3bb5c315f4",
+      "sourceId": "alex-mcfarland",
+      "category": "apologetics",
+      "title": "One nation, under judgment? Spiritual implications of the election results",
+      "excerpt": "America should not be surprised that our nation, largely existing in flagrant rejection of God’s Word, is reaping the consequences of its own rebellion. The 2026 midterm elections, with the […]",
+      "url": "https://alexmcfarland.com/one-nation-under-judgment-spiritual-implications-of-the-election-results/",
+      "author": "Alex McFarland",
+      "publishedAt": "2026-11-09T13:15:00+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "protestia-38cd80318d86",
+      "sourceId": "protestia",
+      "category": "news",
+      "title": "Megachurch Leader Tom Keesee Found ‘Guilty’ Of 27 Child Sex Abuse Charges, Remains Free While Facing Life Sentence",
+      "excerpt": "This story contains graphic descriptions of violence that may be offensive to some. Discretion is advised The son of prominent Ohio megachurch pastors has been found guilty of 27 felony counts related to the sexual abuse of three girls, including 11 counts of rape of a child under 13, 11...",
+      "url": "https://protestia.com/2026/11/09/megachurch-leader-tom-keesee-found-guilty-of-27-child-sex-abuse-charges-remains-free-while-facing-life-sentence/",
+      "author": "Staff Writer",
+      "publishedAt": "2026-11-09T11:32:39+00:00",
+      "thumbnail": "https://protestia.com/wp-content/uploads/2026/11/First-Wednesday-Service-_-Robin-D.-Bullock-_-October-2026-_-Faith-Life-Church-1-35-43-screenshot-1024x576-1.png"
+    },
+    {
+      "id": "crossexamined-c99b73fbe752",
+      "sourceId": "crossexamined",
+      "category": "apologetics",
+      "title": "Twisting Scripture for Profit: Exposing Paula White-Cain’s Prosperity Gospel",
+      "excerpt": "Are you aware that President Trump appointed a prosperity preacher as his director of the Faith Office, who, just a few years ago, was under investigation by the IRS and the US Senate for the lavish lifestyle she was living with donor money and then filed for Chapter 11 bankruptcy?...",
+      "url": "https://crossexamined.org/twisting-scripture-for-profit-exposing-paula-white-cains-prosperity-gospel/",
+      "author": "Guest",
+      "publishedAt": "2026-11-09T08:00:31+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "protestia-56b401a86073",
+      "sourceId": "protestia",
+      "category": "news",
+      "title": "Wikipedia Co-founder Release ‘World’s first high-quality public domain audio copy of the KJV’ Bible",
+      "excerpt": "Wikipedia co-founder Larry Sanger has released what he calls “the world’s first high-quality public domain audio copy of the King James Version (KJV) Bible” that “anyone may use in any project going forward.” Sanger, 57, who converted to Christianity in 2025, announced the new project, Deep Dive Bible, as a...",
+      "url": "https://protestia.com/2026/11/08/wikipedia-co-founder-release-worlds-first-high-quality-public-domain-audio-copy-of-the-kjv-bible/",
+      "author": "Staff Writer",
+      "publishedAt": "2026-11-09T05:27:58+00:00",
+      "thumbnail": "https://protestia.com/wp-content/uploads/2026/11/Screenshot-2026-11-08-231105.png"
+    },
+    {
+      "id": "ligonier-ab620302fe32",
+      "sourceId": "ligonier",
+      "category": "teaching",
+      "title": "50% Off Children’s Books",
+      "excerpt": "Teaching children about God can begin with a story. This week only, save up to 50% on treasured children’s titles from R.C. Sproul and other authors who bring theology within the reach of children. As Christmas approaches, add timeless stories under the tree that point to Christ and the hope...",
+      "url": "https://www.ligonier.org/posts/50-off-childrens-books",
+      "author": "Ligonier Ministries",
+      "publishedAt": "2026-11-09T05:00:00",
+      "thumbnail": "https://images.ctfassets.net/ukqj0ybhazqg/7sFNz6NPrSeXzBeLx8OnQN/a295e5e646cc889250a17d3532f039db/1080x1080_Web_26_nov_childrens_book_sale.jpg"
+    },
+    {
+      "id": "ligonier-7cb6e359d2d7",
+      "sourceId": "ligonier",
+      "category": "teaching",
+      "title": "Forget Not All His Benefits",
+      "excerpt": "In Luke 22 we read a description of the institution of the Lord’s Supper and we see that Jesus refers specifically to two dimensions of time: the present and the future. In our culture, we generally measure the passing of time by referring to the past, the present, and the...",
+      "url": "https://learn.ligonier.org/articles/forget-not-all-his-benefits",
+      "author": "R.C. Sproul",
+      "publishedAt": "2026-11-09T05:00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "protestia-b5094bcc7ecf",
+      "sourceId": "protestia",
+      "category": "news",
+      "title": "Calvary Church Costa Mesa Says It Will Begin Ordaining Women, Defying Ministry Distinctives",
+      "excerpt": "Calvary Chapel Costa Mesa, the influential 2,500-member Calvary Chapel church founded by Chuck Smith, announced Sunday its intent to begin ordaining women pastors, directly defying Calvary Chapel’s ministry distinctives and philosophy and putting them at odds with 1800 other churches in the Association Pastor Char Brodersen, Chuck’s Smith’s grandson, shared...",
+      "url": "https://protestia.com/2026/11/07/calvary-church-costa-mesa-says-it-will-begin-ordaining-women-defying-ministry-distinctives/",
+      "author": "Staff Writer",
+      "publishedAt": "2026-11-07T12:38:59+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "christian-worldview-56582c641830",
+      "sourceId": "christian-worldview",
+      "category": "teaching",
+      "title": "Response to the Midterms and Everything Else in Life—Go Serve Your King!",
+      "excerpt": "GUEST: TODD FRIEL, radio host and author, Go Serve Your King The midterm election was an unmitigated disaster for Republicans as Democrats won back the U.S. House and U.S. Senate and will hold large majorities in both chambers. The forecast for the next two years for President Trump and conservatives...",
+      "url": "https://thechristianworldview.org/response-to-the-midterms-and-everything-else-in-life-go-serve-your-king/",
+      "author": "brodiewheaton",
+      "publishedAt": "2026-11-07T12:00:05+00:00",
+      "thumbnail": "https://thechristianworldview.org/wp-content/uploads/2026/11/toddfriel-headshot-297x300.png"
+    },
+    {
+      "id": "crossexamined-0aa681e9e68b",
+      "sourceId": "crossexamined",
+      "category": "apologetics",
+      "title": "Where Did We Come From? 5 Lines of Scientific Evidence",
+      "excerpt": "Where did we come from? Why are we here? And where are we going? Every worldview has to answer at least five essential questions, but which one leads us to the truth? It’s been 20+ years since the original release of, ‘I Don’t Have Enough Faith to Be an Atheist‘,...",
+      "url": "https://crossexamined.org/where-did-we-come-from-5-lines-of-scientific-evidence/",
+      "author": "Frank Turek",
+      "publishedAt": "2026-11-06T17:20:45+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "protestia-25a13cd5dabf",
+      "sourceId": "protestia",
+      "category": "news",
+      "title": "‘Christian’ Celebrity Russell Brand Faces ‘Significant’ Prison Time  Following Rape Conviction",
+      "excerpt": "Movie star, comedian, and cultural commentator Russell Brand, who publicly came out as a born-again Christian* last year, has been found guilty of one count of rape and three counts of sexual assault following a multiweek trial in London, and now faces 15 years in prison. (Warning, explicit content) In...",
+      "url": "https://protestia.com/2026/11/06/christian-celebrity-russell-brand-faces-significant-prison-time-following-rape-conviction/",
+      "author": "Staff Writer",
+      "publishedAt": "2026-11-06T11:53:00+00:00",
+      "thumbnail": "https://protestia.com/wp-content/uploads/2026/11/Screenshot-2026-11-06-033505.png"
+    },
+    {
+      "id": "ligonier-5df06bd3cb5a",
+      "sourceId": "ligonier",
+      "category": "teaching",
+      "title": "What Does It Mean That God Is Omniscient?",
+      "excerpt": "Great is our Lord, and abundant in power; his understanding is beyond measure. (Ps. 147:5) There’s a TV show in the UK called University Challenge. It’s a quiz show in which two teams, selected from various universities, compete against each other by answering questions on a variety of topics. My...",
+      "url": "https://learn.ligonier.org/articles/what-does-it-mean-that-god-is-omniscient",
+      "author": "Iver Martin",
+      "publishedAt": "2026-11-06T04:00:00",
+      "thumbnail": "https://images.ctfassets.net/ukqj0ybhazqg/6Nk8mdJIu50NCQ4D1vx7f4/a34cfad4f71fe99d0701a9fa1b79a704/God-is-Omniscient_2560.jpg"
+    },
+    {
+      "id": "ligonier-66992643076c",
+      "sourceId": "ligonier",
+      "category": "teaching",
+      "title": "2026 Christmas Gift Guide: Save on Resources for Everyone",
+      "excerpt": "Looking for meaningful gifts that won’t break the bank? This Christmas, give your friends and family members discipleship resources that can help strengthen their faith and cultivate a deeper love for God. Explore the collections below to find books, Bibles, and teaching series for every person on your list. Don’t...",
+      "url": "https://www.ligonier.org/posts/christmas-gift-guide",
+      "author": "Ligonier Ministries",
+      "publishedAt": "2026-11-05T05:00:00",
+      "thumbnail": "https://images.ctfassets.net/ukqj0ybhazqg/4tEflhwllNT8llEAMWnvtz/611ad0a1fd048abf6abdd5a9ef49b036/1080x1080_Web_26_holiday_gift_guide_webkit.jpg"
+    },
+    {
+      "id": "ligonier-0803f5a9c4a3",
+      "sourceId": "ligonier",
+      "category": "teaching",
+      "title": "5 Recommended Resources on Contentment and Gratitude",
+      "excerpt": "Once a year on Thanksgiving, we set aside a specific day to voice our gratitude. But what about the other 364 days of the year? Even as believers, we can be tempted to envy, grumbling, and discontentment in our lives. Like a car with alignment problems, we tend to veer...",
+      "url": "https://learn.ligonier.org/articles/4-recommended-resources-contentment-and-gratitude",
+      "author": "Karrie Hahn Devlin",
+      "publishedAt": "2026-11-05T04:00:00",
+      "thumbnail": "https://images.ctfassets.net/ukqj0ybhazqg/5QEcj3YKx3M2V3SD7wPJoD/468ffa43f1e0d8fe095aac2a074bf87a/4-Recommended-Resources-on-Contentment-Gratitude_2560.jpg"
+    },
+    {
+      "id": "protestia-1b080fafde15",
+      "sourceId": "protestia",
+      "category": "news",
+      "title": "Why Did 9Marks Fail?",
+      "excerpt": "9Marks has (apparently) failed. I take no pleasure in saying so. But facts are facts. The post Why Did 9Marks Fail? appeared first on Protestia.",
+      "url": "https://protestia.com/2026/11/04/why-did-9marks-fail/",
+      "author": "guestpost",
+      "publishedAt": "2026-11-04T21:40:46+00:00",
+      "thumbnail": "https://protestia.com/wp-content/uploads/2026/11/image.png"
+    },
+    {
+      "id": "protestia-c260760fcaae",
+      "sourceId": "protestia",
+      "category": "news",
+      "title": "Former Acts 29 CEO Stephen Timmins and Wife Janet Charged With 8 Counts Of Rape",
+      "excerpt": "Half a decade after Steve Timmins, 68, was removed from his position as CEO of ACTS 29 over accusations that he was engaging in patterns of abusive leadership, he and his wife, Janet, 61, have been charged with eight counts of rape dating back to an incident nearly 20 years...",
+      "url": "https://protestia.com/2026/11/04/former-acts-29-ceo-stephen-timmins-and-wife-janet-charged-with-8-counts-of-rape/",
+      "author": "Staff Writer",
+      "publishedAt": "2026-11-04T10:13:33+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "protestia-c6f4258de496",
+      "sourceId": "protestia",
+      "category": "news",
+      "title": "Talarico likens himself to Jesus, David in election victory speech: ‘Time to start flipping tables’",
+      "excerpt": "(Christian Post) Democratic Texas state Rep. James Talarico likened himself to David and Jesus during his victory speech after defeating Republican Texas Attorney General Ken Paxton on Tuesday in the state’s U.S. Senate race. “I’m reminded of that story from Scripture of…to continue reading click here: This article was written...",
+      "url": "https://protestia.com/2026/11/04/talarico-likens-himself-to-jesus-david-in-election-victory-speech-time-to-start-flipping-tables/",
+      "author": "Curated Post",
+      "publishedAt": "2026-11-04T09:09:00+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "protestia-2f739d60eee5",
+      "sourceId": "protestia",
+      "category": "news",
+      "title": "Progressive UMC Pastor Adam Hamilton Wins U.S. Senate Race in Kansas",
+      "excerpt": "Adam Hamilton, the progressive senior pastor Church of the Resurrection, the biggest UMC church in the country and one of the largest Methodist churches in the world, has won his Senate race in Kansas, unseating Republican Sen. Roger Marshall. We’ve previously covered the progressive, pro-LGBTQ, pro-choice Hamilton after he claimed...",
+      "url": "https://protestia.com/2026/11/04/progressive-umc-pastor-adam-hamilton-wins-u-s-senate-race-in-kansas/",
+      "author": "Staff Writer",
+      "publishedAt": "2026-11-04T09:06:04+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "crossexamined-adfc4ce13171",
+      "sourceId": "crossexamined",
+      "category": "apologetics",
+      "title": "My Top 5 Bible Study Resources for Understanding Difficult Passages",
+      "excerpt": "What are the best Bible study resources to help you understand difficult verses, text-critical issues, and the background of Scripture? Some people have asked me for my top recommendations for different kinds of Bible study resources that you can use to help in your Bible study, especially when you come...",
+      "url": "https://crossexamined.org/my-top-5-bible-study-resources-for-understanding-difficult-passages/",
+      "author": "Guest",
+      "publishedAt": "2026-11-04T08:00:42+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "ligonier-67a323640177",
+      "sourceId": "ligonier",
+      "category": "teaching",
+      "title": "Between Sunday School and Seminary: Keith Mathison on 30 Years at Ligonier",
+      "excerpt": "How did you come to Christ? I was in high school, and there was an elderly gentleman on campus handing out little pocket-sized New Testaments. At the time, I was not a Christian and had not been raised in the church. I was polite, threw it in my backpack, took...",
+      "url": "https://learn.ligonier.org/articles/between-sunday-school-and-seminary-keith-mathison",
+      "author": "Keith Mathison",
+      "publishedAt": "2026-11-04T04:00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "crossexamined-2aaf2661af1c",
+      "sourceId": "crossexamined",
+      "category": "apologetics",
+      "title": "4 Ways Mormons, Muslims, & Jehovah’s Witnesses CHANGE the Gospel with Dr. Brady Blevins",
+      "excerpt": "A Muslim co-worker says Jesus never claimed to be God. Your Mormon neighbor says, “We believe in Jesus too!” Then, a Jehovah’s Witness opens the New World Translation and starts reading what sounds like scripture. Are you ready to respond? Or are you suddenly hoping somebody changes the subject? Frank...",
+      "url": "https://crossexamined.org/4-ways-mormons-muslims-jehovahs-witnesses-change-the-gospel-with-dr-brady-blevins/",
+      "author": "Frank Turek",
+      "publishedAt": "2026-11-03T19:47:45+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "ligonier-8fcfeef28236",
+      "sourceId": "ligonier",
+      "category": "teaching",
+      "title": "New from Ligonier: Keith Mathison’s Book on Biblical Eschatology",
+      "excerpt": "Eschatology is defined as the “doctrine of last things.” But we won’t see the full significance of how God’s story ends if we start reading at the last chapter. When we trace each stage of development from Genesis to Revelation, we see that all God’s promises are fulfilled through the...",
+      "url": "https://www.ligonier.org/posts/from-age-to-age-a-book-by-keith-mathison",
+      "author": "Ligonier Ministries",
+      "publishedAt": "2026-11-03T05:00:00",
+      "thumbnail": "https://images.ctfassets.net/ukqj0ybhazqg/4Mi0qVtLgwwzMc1FYPId8i/862e85e16909f9da5f4efdd8e24b3822/1080x1080_Web_FRO13_from_age_to_age.jpg"
+    },
+    {
+      "id": "ligonier-ddd9ba053ffd",
+      "sourceId": "ligonier",
+      "category": "teaching",
+      "title": "What Should Protestants Know About the Early Church Fathers?",
+      "excerpt": "Luther, Calvin, and the other “founding fathers” of Protestantism were disciples of the early church fathers. They had a special regard for one father in particular: Augustine of Hippo. Luther belonged to the Augustinian order of friars and found life-transforming resources of theology in his order’s patron saint. Still, the...",
+      "url": "https://learn.ligonier.org/articles/early-church-fathers",
+      "author": "Nicholas Needham",
+      "publishedAt": "2026-11-03T04:00:00",
+      "thumbnail": "https://images.ctfassets.net/ukqj0ybhazqg/3RF3pJ1Tgyd6GkUYvjw1bg/bc3af0706d5da4d4e7e9928b5e6dffa9/What-Should-Protestants-Know-about-the-Church-Fathers_2560.jpg"
+    },
+    {
+      "id": "alex-mcfarland-470422e2bc5c",
+      "sourceId": "alex-mcfarland",
+      "category": "apologetics",
+      "title": "Polarized, post-election America could now burn like France; who’s really in charge?",
+      "excerpt": "Dr. Alex McFarland warns that political violence and intimidation threaten constitutional government as America approaches the November 3 election.",
+      "url": "https://alexmcfarland.com/dr-mcfarland-polarized-post-election-america-could-now-burn-like-france-whos-really-in-charge/",
+      "author": "Alex McFarland",
+      "publishedAt": "2026-11-02T11:00:00+00:00",
+      "thumbnail": "https://alexmcfarland.com/wp-content/uploads/2026/03/News-Release-Image.jpg"
+    },
+    {
+      "id": "crossexamined-464508e42f72",
+      "sourceId": "crossexamined",
+      "category": "apologetics",
+      "title": "What Does the Bible Say About Trees",
+      "excerpt": "In the Midwest, we have all 4 distinct seasons. Now is one of my favorite seasons, fall. The fall colors can be amazing, with reds, yellows, and oranges. We have many different kinds of trees: hardwoods, softwoods, fruit trees, and some evergreen trees. God uses trees as a symbol in...",
+      "url": "https://crossexamined.org/what-does-the-bible-say-about-trees/",
+      "author": "Guest",
+      "publishedAt": "2026-11-02T08:00:45+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "apologetics-press-1f5c78f28e7b",
+      "sourceId": "apologetics-press",
+      "category": "apologetics",
+      "title": "Why Was Herod King When Jesus Was Born?",
+      "excerpt": "Question: Dear Digger Doug, Why was Herod the king when Jesus was born if you can’t trace his genealogy back to David? Answer: Dear Luke, Herod the Great was king of Judea when Jesus was born according to Matthew 2:1. However, Herod was not from a Jewish family. His father...",
+      "url": "https://apologeticspress.org/why-was-herod-king-when-jesus-was-born/",
+      "author": "Digger Doug",
+      "publishedAt": "2026-11-01T20:12:43+00:00",
+      "thumbnail": "https://apologeticspress.org/wp-content/uploads/2025/05/Digger-Doug-New-outline-full-150x150.png"
+    },
+    {
+      "id": "apologetics-press-b86bb7e8cbf5",
+      "sourceId": "apologetics-press",
+      "category": "apologetics",
+      "title": "Between the Testaments…",
+      "excerpt": "What do you think is the most important page of the Bible? This question doesn’t have a “right answer,” because the whole Bible is from God. Every page is filled with God’s words. If we were allowed to pick a favorite, though, which page of the Bible would be yours?...",
+      "url": "https://apologeticspress.org/between-the-testaments/",
+      "author": "Aubrey Strickland",
+      "publishedAt": "2026-11-01T17:16:11+00:00",
+      "thumbnail": "https://apologeticspress.org/wp-content/uploads/2026/11/LI-Discovery-Between-the-Testaments-AS-150x150.jpg"
+    },
+    {
+      "id": "apologetics-press-c10a996d3cc5",
+      "sourceId": "apologetics-press",
+      "category": "apologetics",
+      "title": "An Opportunity to Help Further the Work of Apologetics Press",
+      "excerpt": "What if you could give $100 to help spread the Gospel around the world, and someone else would immediately turn that gift into $200? What if your $1,000 gift could become $2,000? By the grace of God, Apologetics Press has once again been blessed with just such an opportunity. A...",
+      "url": "https://apologeticspress.org/an-opportunity-to-help-further-the-work-of-apologetics-press/",
+      "author": "Eric Lyons",
+      "publishedAt": "2026-11-01T15:52:37+00:00",
+      "thumbnail": "https://apologeticspress.org/wp-content/uploads/2023/10/AP-Donation-Challenge-header-2026-01-150x150.png"
+    },
+    {
+      "id": "christian-worldview-ff0f988b167e",
+      "sourceId": "christian-worldview",
+      "category": "teaching",
+      "title": "The Mid-Terms, Middle East, and the Christian’s Calling",
+      "excerpt": "Printer-friendly transcript GUEST: ROD D. MARTIN, Philosopher Capitalist, The Rod Martin Report When Donald Trump made his unlikely political comeback to win the presidency for a second, nonconsecutive term in 2024, many Christians and conservatives hoped America would return to sanity for years to come. Two years later, while many...",
+      "url": "https://thechristianworldview.org/the-mid-terms-middle-east-and-the-christians-calling/",
+      "author": "brodiewheaton",
+      "publishedAt": "2026-10-31T12:00:22+00:00",
+      "thumbnail": "https://thechristianworldview.org/wp-content/uploads/2026/10/Rod-Martin-headshot-150x150.png"
+    },
+    {
+      "id": "apologetics-press-7c6d59200fdf",
+      "sourceId": "apologetics-press",
+      "category": "apologetics",
+      "title": "What Does It Mean to “Work Out Your Own Salvation”?",
+      "excerpt": "Question: If salvation is a gift from God, why did Paul say in Philippians 2:12 to “work out your own salvation with fear and trembling”? Answer: What an excellent question. If humans do not, and cannot, “earn” salvation from sin and its spiritual consequences—eternal death (Romans 6:23)—why does Paul write,...",
+      "url": "https://apologeticspress.org/what-does-it-mean-to-work-out-your-own-salvation/",
+      "author": "Eric Lyons",
+      "publishedAt": "2026-10-30T21:48:41+00:00",
+      "thumbnail": "https://apologeticspress.org/wp-content/uploads/2026/10/What-Does-It-Mean-to-Work-Our-Your-Own-Salvation-EL-02-150x150.jpg"
+    },
+    {
+      "id": "apologetics-press-09edf4359df6",
+      "sourceId": "apologetics-press",
+      "category": "apologetics",
+      "title": "The Durupınar “Ark”: Why a Boat-Shaped Rock Near Ararat Is Not Noah’s Ark",
+      "excerpt": "Few claims in popular biblical archaeology have lasted as long as the one about a boat-shaped formation in the hills south of Mount Ararat in eastern Turkey. Known as the Durupınar site, it has been promoted since the late 1970s as the petrified remains of Noah’s Ark. Every few years...",
+      "url": "https://apologeticspress.org/the-durupinar-ark/",
+      "author": "Jonathan Moore",
+      "publishedAt": "2026-10-30T21:02:33+00:00",
+      "thumbnail": "https://apologeticspress.org/wp-content/uploads/2026/10/Has-Noahs-Ark-Been-Found-JM-02-150x150.jpg"
+    },
+    {
+      "id": "crossexamined-a137f9748cbb",
+      "sourceId": "crossexamined",
+      "category": "apologetics",
+      "title": "Did We REALLY Find Noah’s Ark? PLUS The Most Amazing Jesus Discovery with Dr. Jeremiah J. Johnston",
+      "excerpt": "Did we REALLY find Noah’s Ark or are millions of people being misled by internet hype? Have we REALLY found the burial box of Jesus’s brother, James? And what do jihad and progressive Christianity have to do with America’s upcoming midterm elections? Dr. Jeremiah J. Johnston, president and founder of...",
+      "url": "https://crossexamined.org/did-we-really-find-noahs-ark-plus-the-most-amazing-jesus-discovery-with-dr-jeremiah-j-johnston/",
+      "author": "Frank Turek",
+      "publishedAt": "2026-10-30T17:11:23+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "alex-mcfarland-257b9f7538c6",
+      "sourceId": "alex-mcfarland",
+      "category": "apologetics",
+      "title": "Forget Halloween. Remember the Reformation!",
+      "excerpt": "October 31, 1517, was a day that changed civilization—and its lessons challenge Americans to exercise their freedoms responsibly in 2026.",
+      "url": "https://alexmcfarland.com/forget-halloween-remember-the-reformation/",
+      "author": "Alex McFarland",
+      "publishedAt": "2026-10-29T15:01:04+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "crossexamined-1a7cfec091f1",
+      "sourceId": "crossexamined",
+      "category": "apologetics",
+      "title": "Euthanasia: Life Is Not Disposable",
+      "excerpt": "A story from the Netherlands is shocking the world: a two-year-old child was euthanized at the end of 2025. What happened? This young child was born prematurely with a long list of health issues, such as: premature birth leading to sepsis infections, brain damage, periventricular leukomalacia—which itself caused spastic cerebral...",
+      "url": "https://crossexamined.org/euthanasia-life-is-not-disposable/",
+      "author": "Guest",
+      "publishedAt": "2026-10-28T08:00:27+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "crossexamined-413f84831477",
+      "sourceId": "crossexamined",
+      "category": "apologetics",
+      "title": "Top 10 Reasons We Know the New Testament Writers Told the Truth",
+      "excerpt": "﻿ Can we REALLY trust the New Testament writers? How do we know they were telling the truth about Jesus’ resurrection and not just passing along an invented story? The brand-new updated edition of ‘I Don’t Have Enough Faith to Be an Atheist‘ is officially available TODAY after the first...",
+      "url": "https://crossexamined.org/top-10-reasons-we-know-the-new-testament-writers-told-the-truth/",
+      "author": "Frank Turek",
+      "publishedAt": "2026-10-27T20:02:36+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "alex-mcfarland-9961855c559d",
+      "sourceId": "alex-mcfarland",
+      "category": "apologetics",
+      "title": "Coloradans for Proposition 134: Vote for 134 to keep males out of women’s sports (and showers)",
+      "excerpt": "Dr. Alex McFarland urges Colorado voters to support Proposition 134 and protect fair athletic opportunities for female students.",
+      "url": "https://alexmcfarland.com/coloradans-for-proposition-134-vote-for-134-to-keep-males-out-of-womens-sports-and-showers/",
+      "author": "Alex McFarland",
+      "publishedAt": "2026-10-26T19:46:36+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "christian-worldview-d9e91272473a",
+      "sourceId": "christian-worldview",
+      "category": "teaching",
+      "title": "Imprisoned Over George Floyd. Set Free by Jesus Christ",
+      "excerpt": "Printer-friendly Transcript GUEST: TOU THAO, former Minneapolis police officer No one woke up on May 25, 2020 anticipating the country was about to change, that cities were soon to burn, and that the Marxist woke movement, including Black Lives Matter and Defund the Police, were going to take off. But...",
+      "url": "https://thechristianworldview.org/imprisoned-over-george-floyd-set-free-by-jesus-christ/",
+      "author": "brodiewheaton",
+      "publishedAt": "2026-10-24T12:00:04+00:00",
+      "thumbnail": "https://thechristianworldview.org/wp-content/uploads/2026/10/TouThao.png"
+    },
+    {
+      "id": "alex-mcfarland-6b25008da524",
+      "sourceId": "alex-mcfarland",
+      "category": "apologetics",
+      "title": "Ballots and bullying: How the destabilization of France might soon come to America",
+      "excerpt": "When political grievances become an excuse for destruction, Constitutional government must stand firm — or risk surrendering the streets to the mob. The scenes unfolding in France should serve as […]",
+      "url": "https://alexmcfarland.com/ballots-and-bullying-how-the-destabilization-of-france-might-soon-come-to-america/",
+      "author": "Alex McFarland",
+      "publishedAt": "2026-10-22T20:43:18+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "alex-mcfarland-dcfbb26e011e",
+      "sourceId": "alex-mcfarland",
+      "category": "apologetics",
+      "title": "Pastors, be bold this election cycle: preach like the future of the country depends on it, says Dr. Alex McFarland",
+      "excerpt": "Dr. Alex McFarland urges pastors to address the 2026 midterm elections boldly and guide churchgoers through a biblical lens.",
+      "url": "https://alexmcfarland.com/pastors-be-bold-this-election-cycle-preach-like-the-future-of-the-country-depends-on-it-says-dr-alex-mcfarland/",
+      "author": "Alex McFarland",
+      "publishedAt": "2026-10-19T19:03:45+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "christian-worldview-3bc02a9a17b4",
+      "sourceId": "christian-worldview",
+      "category": "teaching",
+      "title": "The Radicalization of Young Women",
+      "excerpt": "Printer-friendly transcript Guest: David Mitzenmacher, Associate Pastor, Grace Baptist Church, FL Studies are showing what you are likely seeing with your own eyes—women, particularly younger women, are “radicalizing” in their worldview. In other words, moving away from a biblical worldview. Who was prominent on the front lines against ICE as...",
+      "url": "https://thechristianworldview.org/the-radicalization-of-young-women/",
+      "author": "brodiewheaton",
+      "publishedAt": "2026-10-17T12:00:13+00:00",
+      "thumbnail": "https://thechristianworldview.org/wp-content/uploads/2026/10/DavidMitzenmacher-150x150.png"
+    },
+    {
+      "id": "alex-mcfarland-c70df645ef48",
+      "sourceId": "alex-mcfarland",
+      "category": "apologetics",
+      "title": "Should I anoint my home with oil?",
+      "excerpt": "The question about anointing your home with oil is an important one. The simple answer is that there is nothing wrong with doing this, but the Bible does not teach […]",
+      "url": "https://alexmcfarland.com/should-i-anoint-my-home-with-oil/",
+      "author": "Alex McFarland",
+      "publishedAt": "2026-10-12T20:02:52+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "alex-mcfarland-c65466ddadcc",
+      "sourceId": "alex-mcfarland",
+      "category": "apologetics",
+      "title": "Wake up, dress, feed the dog, get out there and save America",
+      "excerpt": "Wake up. Shake yourself into consciousness and begin the routine tasks that characterize our days. Drink your coffee and eat your breakfast. Take the kids to school. Pay the mortgage. […]",
+      "url": "https://alexmcfarland.com/wake-up-dress-feed-the-dog-get-out-there-and-save-america/",
+      "author": "Alex McFarland",
+      "publishedAt": "2026-10-12T20:02:51+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "alex-mcfarland-dcc2ac14435f",
+      "sourceId": "alex-mcfarland",
+      "category": "apologetics",
+      "title": "Christians must act in upcoming midterms to save the soul of America, says Dr. Alex McFarland",
+      "excerpt": "Dr. Alex McFarland calls Christians to participate in the 2026 midterm elections and vote according to biblical convictions.",
+      "url": "https://alexmcfarland.com/christians-must-act-in-upcoming-midterms-to-save-the-soul-of-america-says-dr-alex-mcfarland/",
+      "author": "Alex McFarland",
+      "publishedAt": "2026-10-12T10:00:00+00:00",
+      "thumbnail": null
+    },
+    {
+      "id": "christian-worldview-243f0237a0ca",
+      "sourceId": "christian-worldview",
+      "category": "teaching",
+      "title": "How Christians Are Manipulated By Untethered Empathy (02212026)",
+      "excerpt": "Printer-friendly transcript GUEST: PASTOR JOE RIGNEY, author, Leadership and The Sin of Empathy Have you ever wondered why so many feminists support biological boys who identify as girls being able to compete against and defeat biological girls in girls’ sporting events? Or why is nary a peep uttered by those...",
+      "url": "https://thechristianworldview.org/topic-how-christians-are-manipulated-by-untethered-empathy-02212026/",
+      "author": "brodiewheaton",
+      "publishedAt": "2026-10-10T11:00:30+00:00",
+      "thumbnail": "https://thechristianworldview.org/wp-content/uploads/2026/02/joerigney-headshot-150x150.png"
+    },
+    {
+      "id": "apologetics-press-95cab180fb11",
+      "sourceId": "apologetics-press",
+      "category": "apologetics",
+      "title": "AP’s Newest Release: Has the Bible Been Corrupted?",
+      "excerpt": "“How do you know the Bible you have today is what God originally inspired nearly 2,000 years ago?” It’s a fair question—and a very important one. After all, none of the original handwritten New Testament documents still exist. Before the invention of the printing press, copies of Scripture had to...",
+      "url": "https://apologeticspress.org/aps-newest-release-has-the-bible-been-corrupted/",
+      "author": "Eric Lyons",
+      "publishedAt": "2026-10-05T18:45:09+00:00",
+      "thumbnail": "https://apologeticspress.org/wp-content/uploads/2026/10/EN-Has-the-Bible-Been-Corrupted-150x150.jpg"
+    },
+    {
+      "id": "apologetics-press-c655303c90e1",
+      "sourceId": "apologetics-press",
+      "category": "apologetics",
+      "title": "Must Jewish Christians Keep the Law of Moses?: Understanding Acts 15, Acts 21, and Paul’s Teaching on the Law",
+      "excerpt": "Did the apostles release Gentile Christians from the Law of Moses while requiring Jewish Christians to remain under it? In Acts 15, the apostles refused to require circumcision and Mosaic observance for salvation. Only a few chapters later, however, Paul entered the Jerusalem Temple, participated in purification rites, and allowed...",
+      "url": "https://apologeticspress.org/must-jewish-christians-keep-the-law-of-moses/",
+      "author": "Donnie DeBord",
+      "publishedAt": "2026-10-05T16:52:38+00:00",
+      "thumbnail": "https://apologeticspress.org/wp-content/uploads/2026/10/Must-Jewish-Chrsitians-Keep-the-Law-of-Moses-DD-02-150x150.jpg"
+    },
+    {
+      "id": "apologetics-press-a9c28d468da4",
+      "sourceId": "apologetics-press",
+      "category": "apologetics",
+      "title": "The Book of Enoch in the Ethiopian Bible: A Test Case in Canonicity",
+      "excerpt": "In the past, it was newspaper headlines and news outlets that provided the public with provocative stories about mysterious archaeological finds, conspiracy theories, and odd historical events. Today, it’s YouTube videos, podcasts, and social media shorts. The reader is probably aware of the amount of Internet content about these captivating...",
+      "url": "https://apologeticspress.org/the-book-of-enoch-in-the-ethiopian-bible-a-test-case-in-canonicity/",
+      "author": "Aubrey Strickland",
+      "publishedAt": "2026-10-05T16:06:47+00:00",
+      "thumbnail": "https://apologeticspress.org/wp-content/uploads/2026/10/LI-Should-the-Book-of-Enoch-Be-in-the-Bible-AS-02-150x150.jpg"
+    },
+    {
+      "id": "christian-worldview-1d9ce99451a6",
+      "sourceId": "christian-worldview",
+      "category": "teaching",
+      "title": "The Lindsay Clancy Case: When Empathy Overshadows the Victims",
+      "excerpt": "Printer-friendly Transcript GUEST: MISSY ROEPNACK, Christian Writer and Teacher On January 24, 2023, Lindsay Clancy, a former labor-and-delivery nurse in Massachusetts, sent her husband out for some errands, and while he was away, took their three children—Cora (5), Dawson (3), and Callan (8 months)—into the basement and one by one...",
+      "url": "https://thechristianworldview.org/the-lindsay-clancy-case-when-empathy-overshadows-the-victims/",
+      "author": "brodiewheaton",
+      "publishedAt": "2026-10-03T12:00:09+00:00",
+      "thumbnail": "https://thechristianworldview.org/wp-content/uploads/2026/10/missy-headshot-800x800.png"
+    },
+    {
+      "id": "apologetics-press-91e3ae165ced",
+      "sourceId": "apologetics-press",
+      "category": "apologetics",
+      "title": "Why Can We Hear and Feel Wind?",
+      "excerpt": "Question: Dear Digger Doug, How does wind start? Why can we hear and feel it, but not see it? Answer: Dear Meadow Mae, Although it might be funny to think that when a butterfly flaps its wings it creates wind on the other side of the world, this is not...",
+      "url": "https://apologeticspress.org/why-can-we-hear-and-feel-wind/",
+      "author": "Digger Doug",
+      "publishedAt": "2026-10-01T16:12:13+00:00",
+      "thumbnail": "https://apologeticspress.org/wp-content/uploads/2025/05/Digger-Doug-New-outline-full-150x150.png"
+    },
+    {
+      "id": "apologetics-press-c31318880add",
+      "sourceId": "apologetics-press",
+      "category": "apologetics",
+      "title": "My Relationship with Money",
+      "excerpt": "What is your relationship with money? What does money mean to you? Do you enjoy spending money on yourself, or would you rather spend it on other people? Do you spend your money as soon as you get it, or do you like to save it and watch it grow?...",
+      "url": "https://apologeticspress.org/my-relationship-with-money/",
+      "author": "Jeremy Pate",
+      "publishedAt": "2026-10-01T15:06:52+00:00",
+      "thumbnail": "https://apologeticspress.org/wp-content/uploads/2026/10/LI-Discovery-My-Relationship-with-Money-KB-150x150.jpg"
+    },
+    {
+      "id": "christian-worldview-225fa0c908f2",
+      "sourceId": "christian-worldview",
+      "category": "teaching",
+      "title": "Speaker Series Highlights on Current Events and Issues of the Faith",
+      "excerpt": "Printer-friendly Transcript Guest: Pastor Travis Allen, Grace Church (Greeley, CO) It was a beautiful fall evening at Stone House Farm in Jordan, MN for our recent Speaker Series event featuring Travis Allen, pastor of Grace Church in Greeley, CO and former Managing Director of Grace to You and member of...",
+      "url": "https://thechristianworldview.org/topic-speaker-series-highlights-on-current-events-and-issues-of-the-faith/",
+      "author": "brodiewheaton",
+      "publishedAt": "2026-09-26T12:00:45+00:00",
+      "thumbnail": "https://thechristianworldview.org/wp-content/uploads/2025/07/travisallen25.png"
+    },
+    {
+      "id": "christian-worldview-db86926f141d",
+      "sourceId": "christian-worldview",
+      "category": "teaching",
+      "title": "Why the Rise of Socialism in America?",
+      "excerpt": "Printer-friendly transcript GUEST: CAL BEISNER, author, Social Justice vs. Biblical Justice Socialism has become mainstream in America. Political candidates representing the Democratic Socialists of America Party are winning elections across the country. Their website says this: “Imagine taking a day off from work in a future without capitalism. You don’t...",
+      "url": "https://thechristianworldview.org/topic-why-the-rise-of-socialism-in-america/",
+      "author": "brodiewheaton",
+      "publishedAt": "2026-09-19T12:00:14+00:00",
+      "thumbnail": "https://thechristianworldview.org/wp-content/uploads/2026/04/cal-beisner-headshot-1-289x300.png"
+    },
+    {
+      "id": "christian-worldview-957c31746e90",
+      "sourceId": "christian-worldview",
+      "category": "teaching",
+      "title": "Lord, May the Assassination of Charlie Kirk be a Turning Point (20250913)",
+      "excerpt": "Printer-friendly transcript GUEST: TRAVIS ALLEN, pastor, Grace Church (Greeley, CO) In our country today there is no shortage of violent acts that shock the senses. We did a recent program on the man who falsely believed he was a women who opened fire at a Catholic school in Minneapolis, killing...",
+      "url": "https://thechristianworldview.org/topic-lord-may-the-assassination-of-charlie-kirk-be-a-turning-point-20250913/",
+      "author": "brodiewheaton",
+      "publishedAt": "2026-09-12T11:37:07+00:00",
+      "thumbnail": "https://thechristianworldview.org/wp-content/uploads/2025/07/travisallen25.png"
+    },
+    {
+      "id": "christian-worldview-0c14d53487a5",
+      "sourceId": "christian-worldview",
+      "category": "teaching",
+      "title": "Take Heed from the Fall of G3 Ministries",
+      "excerpt": "Printer-friendly transcript GUEST: DAVID MORRILL, publisher, Protestia.com G3 began as a theology conference in 2013 at Pray’s Mill Baptist Church near Atlanta. Pastor Josh Buice of the same church was the founder. Year by year, the conference grew into one of the largest and most influential annual events, with thousands...",
+      "url": "https://thechristianworldview.org/take-heed-from-the-fall-of-g3-ministries/",
+      "author": "brodiewheaton",
+      "publishedAt": "2026-09-05T11:00:52+00:00",
+      "thumbnail": "https://thechristianworldview.org/wp-content/uploads/2026/09/davidmorrill.png"
+    }
+  ],
+  "stats": {
+    "totalItems": 70,
+    "sourcesSucceeded": 7,
+    "sourcesFailed": 0
+  }
+}
