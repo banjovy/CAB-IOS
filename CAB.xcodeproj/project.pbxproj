@@ -18,6 +18,11 @@
 		A1000216000000000000001 /* NowPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000206000000000000001 /* NowPlaying.swift */; };
 		A1000217000000000000001 /* ModelDecodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000207000000000000001 /* ModelDecodingTests.swift */; };
 		A1000218000000000000001 /* Fixtures in Resources */ = {isa = PBXBuildFile; fileRef = A1000208000000000000001 /* Fixtures */; };
+		A1000312000000000000001 /* EpisodeDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000302000000000000001 /* EpisodeDuration.swift */; };
+		A1000313000000000000001 /* FeedDateParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000303000000000000001 /* FeedDateParser.swift */; };
+		A1000314000000000000001 /* ShowCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000304000000000000001 /* ShowCatalog.swift */; };
+		A1000315000000000000001 /* ParsingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000305000000000000001 /* ParsingTests.swift */; };
+		A1000316000000000000001 /* ShowCatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000306000000000000001 /* ShowCatalogTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,11 @@
 		A1000206000000000000001 /* NowPlaying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlaying.swift; sourceTree = "<group>"; };
 		A1000207000000000000001 /* ModelDecodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDecodingTests.swift; sourceTree = "<group>"; };
 		A1000208000000000000001 /* Fixtures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fixtures; sourceTree = "<group>"; };
+		A1000302000000000000001 /* EpisodeDuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDuration.swift; sourceTree = "<group>"; };
+		A1000303000000000000001 /* FeedDateParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDateParser.swift; sourceTree = "<group>"; };
+		A1000304000000000000001 /* ShowCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCatalog.swift; sourceTree = "<group>"; };
+		A1000305000000000000001 /* ParsingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsingTests.swift; sourceTree = "<group>"; };
+		A1000306000000000000001 /* ShowCatalogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCatalogTests.swift; sourceTree = "<group>"; };
 		A1000040000000000000001 /* CAB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1000041000000000000001 /* CABTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CABTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -79,9 +89,20 @@
 				A1000001000000000000001 /* CABApp.swift */,
 				A1000002000000000000001 /* ContentView.swift */,
 				A1000201000000000000001 /* Models */,
+				A1000301000000000000001 /* Catalog */,
 				A1000003000000000000001 /* Assets.xcassets */,
 			);
 			path = CAB;
+			sourceTree = "<group>";
+		};
+		A1000301000000000000001 /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				A1000302000000000000001 /* EpisodeDuration.swift */,
+				A1000303000000000000001 /* FeedDateParser.swift */,
+				A1000304000000000000001 /* ShowCatalog.swift */,
+			);
+			path = Catalog;
 			sourceTree = "<group>";
 		};
 		A1000201000000000000001 /* Models */ = {
@@ -101,6 +122,8 @@
 			children = (
 				A1000004000000000000001 /* CABTests.swift */,
 				A1000207000000000000001 /* ModelDecodingTests.swift */,
+				A1000305000000000000001 /* ParsingTests.swift */,
+				A1000306000000000000001 /* ShowCatalogTests.swift */,
 				A1000208000000000000001 /* Fixtures */,
 			);
 			path = CABTests;
@@ -222,6 +245,9 @@
 				A1000214000000000000001 /* Episode.swift in Sources */,
 				A1000215000000000000001 /* Resources.swift in Sources */,
 				A1000216000000000000001 /* NowPlaying.swift in Sources */,
+				A1000312000000000000001 /* EpisodeDuration.swift in Sources */,
+				A1000313000000000000001 /* FeedDateParser.swift in Sources */,
+				A1000314000000000000001 /* ShowCatalog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +257,8 @@
 			files = (
 				A1000014000000000000001 /* CABTests.swift in Sources */,
 				A1000217000000000000001 /* ModelDecodingTests.swift in Sources */,
+				A1000315000000000000001 /* ParsingTests.swift in Sources */,
+				A1000316000000000000001 /* ShowCatalogTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

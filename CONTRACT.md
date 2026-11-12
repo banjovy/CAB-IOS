@@ -43,7 +43,7 @@ key is present on every show; values marked "nullable" are sent as `null`.
 | `title`            | string          | required | Display title. |
 | `category`         | string          | required | `afr-stream`, `afr-podcast`, `fortis-podcast`, or `other-podcast`. Kept as a raw string so a new category doesn't break decoding (`Show.knownCategory` is `nil` for unknown values). |
 | `type`             | string          | optional | Feed source type: `afr-json`, `xml`, or `afr-stream`. Informational. |
-| `order`            | number (int)    | optional | Sort order within the category, ascending. Seen: 1–4. A non-number sorts last (decodes as `nil`). |
+| `order`            | number (int)    | optional | Sort order within the category, ascending. A non-number sorts last (decodes as `nil`). **In practice it's per category, not per show:** every live show in a category has the same value (`afr-stream` 1, `afr-podcast` 2, `fortis-podcast` 3, `other-podcast` 4). So on-screen order within a tab is the **feed order**, kept by a stable sort. To reorder shows in a tab, reorder them in `shows.json` (or start giving shows distinct `order` values). |
 | `owner`            | string          | optional | Creator or ministry name. |
 | `description`      | string          | optional | Long description. |
 | `image`            | string (URL)    | optional | Square artwork. |
@@ -154,7 +154,7 @@ metadata and is ignored by both apps.
 | `category`    | string         | optional | FK → `categories[].id`. |
 | `excerpt`     | string         | optional | Short excerpt; often ends with `[…]`. |
 | `author`      | string         | optional | Not shown by the web app. |
-| `publishedAt` | string         | optional | ISO-8601. **Two formats occur:** with offset (`2026-11-11T18:58:17+00:00`, 60 items) and without (`2026-...T...`, 10 items). The Task 3 parser must accept both. |
+| `publishedAt` | string         | optional | ISO-8601. **Two formats occur:** with offset (`2026-11-11T18:58:17+00:00`, 60 items) and without (`2026-11-11T04:00:00`, 10 items). Offset-less values are read as **device-local** time, like the web app. They all fall at 04:00 or 05:00, which looks like midnight US Eastern in UTC with the `Z` dropped. Reading them as local keeps the right calendar date for US readers; reading them as UTC would show the day before. **Backend suggestion:** emit an explicit offset for these. |
 | `thumbnail`   | string \| null | optional | `null` for 38 of 70 items. |
 
 UI behavior (mirrors web `ResourceCard` and resources page):
