@@ -23,6 +23,15 @@
 		A1000314000000000000001 /* ShowCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000304000000000000001 /* ShowCatalog.swift */; };
 		A1000315000000000000001 /* ParsingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000305000000000000001 /* ParsingTests.swift */; };
 		A1000316000000000000001 /* ShowCatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000306000000000000001 /* ShowCatalogTests.swift */; };
+		A1000422000000000000001 /* FeedEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000402000000000000001 /* FeedEndpoints.swift */; };
+		A1000423000000000000001 /* FeedClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000403000000000000001 /* FeedClient.swift */; };
+		A1000424000000000000001 /* FeedCacheStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000404000000000000001 /* FeedCacheStore.swift */; };
+		A1000425000000000000001 /* CachedFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000405000000000000001 /* CachedFeed.swift */; };
+		A1000426000000000000001 /* FeedRepositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000406000000000000001 /* FeedRepositories.swift */; };
+		A1000427000000000000001 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000407000000000000001 /* MockURLProtocol.swift */; };
+		A1000428000000000000001 /* FeedClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000408000000000000001 /* FeedClientTests.swift */; };
+		A1000429000000000000001 /* CachedFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000409000000000000001 /* CachedFeedTests.swift */; };
+		A1000430000000000000001 /* FeedRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000410000000000000001 /* FeedRepositoryTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +61,15 @@
 		A1000304000000000000001 /* ShowCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCatalog.swift; sourceTree = "<group>"; };
 		A1000305000000000000001 /* ParsingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsingTests.swift; sourceTree = "<group>"; };
 		A1000306000000000000001 /* ShowCatalogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCatalogTests.swift; sourceTree = "<group>"; };
+		A1000402000000000000001 /* FeedEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedEndpoints.swift; sourceTree = "<group>"; };
+		A1000403000000000000001 /* FeedClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedClient.swift; sourceTree = "<group>"; };
+		A1000404000000000000001 /* FeedCacheStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCacheStore.swift; sourceTree = "<group>"; };
+		A1000405000000000000001 /* CachedFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedFeed.swift; sourceTree = "<group>"; };
+		A1000406000000000000001 /* FeedRepositories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedRepositories.swift; sourceTree = "<group>"; };
+		A1000407000000000000001 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		A1000408000000000000001 /* FeedClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedClientTests.swift; sourceTree = "<group>"; };
+		A1000409000000000000001 /* CachedFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedFeedTests.swift; sourceTree = "<group>"; };
+		A1000410000000000000001 /* FeedRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedRepositoryTests.swift; sourceTree = "<group>"; };
 		A1000040000000000000001 /* CAB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1000041000000000000001 /* CABTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CABTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -90,9 +108,22 @@
 				A1000002000000000000001 /* ContentView.swift */,
 				A1000201000000000000001 /* Models */,
 				A1000301000000000000001 /* Catalog */,
+				A1000401000000000000001 /* Networking */,
 				A1000003000000000000001 /* Assets.xcassets */,
 			);
 			path = CAB;
+			sourceTree = "<group>";
+		};
+		A1000401000000000000001 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A1000402000000000000001 /* FeedEndpoints.swift */,
+				A1000403000000000000001 /* FeedClient.swift */,
+				A1000404000000000000001 /* FeedCacheStore.swift */,
+				A1000405000000000000001 /* CachedFeed.swift */,
+				A1000406000000000000001 /* FeedRepositories.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		A1000301000000000000001 /* Catalog */ = {
@@ -124,6 +155,10 @@
 				A1000207000000000000001 /* ModelDecodingTests.swift */,
 				A1000305000000000000001 /* ParsingTests.swift */,
 				A1000306000000000000001 /* ShowCatalogTests.swift */,
+				A1000407000000000000001 /* MockURLProtocol.swift */,
+				A1000408000000000000001 /* FeedClientTests.swift */,
+				A1000409000000000000001 /* CachedFeedTests.swift */,
+				A1000410000000000000001 /* FeedRepositoryTests.swift */,
 				A1000208000000000000001 /* Fixtures */,
 			);
 			path = CABTests;
@@ -248,6 +283,11 @@
 				A1000312000000000000001 /* EpisodeDuration.swift in Sources */,
 				A1000313000000000000001 /* FeedDateParser.swift in Sources */,
 				A1000314000000000000001 /* ShowCatalog.swift in Sources */,
+				A1000422000000000000001 /* FeedEndpoints.swift in Sources */,
+				A1000423000000000000001 /* FeedClient.swift in Sources */,
+				A1000424000000000000001 /* FeedCacheStore.swift in Sources */,
+				A1000425000000000000001 /* CachedFeed.swift in Sources */,
+				A1000426000000000000001 /* FeedRepositories.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +299,10 @@
 				A1000217000000000000001 /* ModelDecodingTests.swift in Sources */,
 				A1000315000000000000001 /* ParsingTests.swift in Sources */,
 				A1000316000000000000001 /* ShowCatalogTests.swift in Sources */,
+				A1000427000000000000001 /* MockURLProtocol.swift in Sources */,
+				A1000428000000000000001 /* FeedClientTests.swift in Sources */,
+				A1000429000000000000001 /* CachedFeedTests.swift in Sources */,
+				A1000430000000000000001 /* FeedRepositoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

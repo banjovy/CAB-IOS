@@ -205,13 +205,27 @@ CarPlay now-playing metadata for streams.
 
 ---
 
-## Caching (parity with web TTLs)
+## Fetching and caching (iOS, `CAB/Networking/`)
 
-| Feed               | Web KV TTL | iOS on-device cache target |
-|--------------------|------------|----------------------------|
+| Feed               | Web KV TTL | iOS cache (memory + disk) |
+|--------------------|------------|---------------------------|
 | shows (aggregated) | 5 min      | 5 min |
 | resources          | 15 min     | 15 min |
-| now-playing        | not cached (polled) | not cached (polled) |
+| now-playing        | not cached (polled) | not cached (polled, Task 8) |
+
+- **Allowed hosts.** Feed JSON is fetched only over `https` from
+  `assets.cabroadcasting.com` or its subdomains (web: `isUrlAllowed`). A show
+  whose `json_url` points anywhere else gets no episodes. **Moving episode feeds
+  to another host means updating `FeedURLPolicy.cabAssets` in the app.** Audio
+  and artwork URLs are not checked.
+- **Partial failure.** If `shows.json` fails or isn't an array, the load fails.
+  If one episode feed fails, that show has no episodes (web parity). If **every**
+  episode feed fails, the load fails (iOS only; the web would cache an
+  episode-less catalog).
+- **Offline.** If a refresh fails and older cached data exists, the app shows the
+  older data (marked stale) instead of an error. The disk cache lives in the iOS
+  Caches directory and may be cleared by the system.
+- **Timeout** 10 s per request, HTTP cache bypassed (web: `cache: 'no-store'`).
 
 ---
 
