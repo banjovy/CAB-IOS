@@ -32,6 +32,11 @@
 		A1000428000000000000001 /* FeedClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000408000000000000001 /* FeedClientTests.swift */; };
 		A1000429000000000000001 /* CachedFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000409000000000000001 /* CachedFeedTests.swift */; };
 		A1000430000000000000001 /* FeedRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000410000000000000001 /* FeedRepositoryTests.swift */; };
+		A1000522000000000000001 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000502000000000000001 /* HomeViewModel.swift */; };
+		A1000523000000000000001 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000503000000000000001 /* HomeView.swift */; };
+		A1000524000000000000001 /* ShowCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000504000000000000001 /* ShowCardView.swift */; };
+		A1000525000000000000001 /* AppServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000505000000000000001 /* AppServices.swift */; };
+		A1000526000000000000001 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000506000000000000001 /* HomeViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +75,11 @@
 		A1000408000000000000001 /* FeedClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedClientTests.swift; sourceTree = "<group>"; };
 		A1000409000000000000001 /* CachedFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedFeedTests.swift; sourceTree = "<group>"; };
 		A1000410000000000000001 /* FeedRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedRepositoryTests.swift; sourceTree = "<group>"; };
+		A1000502000000000000001 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		A1000503000000000000001 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A1000504000000000000001 /* ShowCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCardView.swift; sourceTree = "<group>"; };
+		A1000505000000000000001 /* AppServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppServices.swift; sourceTree = "<group>"; };
+		A1000506000000000000001 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
 		A1000040000000000000001 /* CAB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1000041000000000000001 /* CABTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CABTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -106,12 +116,24 @@
 			children = (
 				A1000001000000000000001 /* CABApp.swift */,
 				A1000002000000000000001 /* ContentView.swift */,
+				A1000505000000000000001 /* AppServices.swift */,
 				A1000201000000000000001 /* Models */,
 				A1000301000000000000001 /* Catalog */,
 				A1000401000000000000001 /* Networking */,
+				A1000501000000000000001 /* Home */,
 				A1000003000000000000001 /* Assets.xcassets */,
 			);
 			path = CAB;
+			sourceTree = "<group>";
+		};
+		A1000501000000000000001 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A1000502000000000000001 /* HomeViewModel.swift */,
+				A1000503000000000000001 /* HomeView.swift */,
+				A1000504000000000000001 /* ShowCardView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		A1000401000000000000001 /* Networking */ = {
@@ -159,6 +181,7 @@
 				A1000408000000000000001 /* FeedClientTests.swift */,
 				A1000409000000000000001 /* CachedFeedTests.swift */,
 				A1000410000000000000001 /* FeedRepositoryTests.swift */,
+				A1000506000000000000001 /* HomeViewModelTests.swift */,
 				A1000208000000000000001 /* Fixtures */,
 			);
 			path = CABTests;
@@ -288,6 +311,10 @@
 				A1000424000000000000001 /* FeedCacheStore.swift in Sources */,
 				A1000425000000000000001 /* CachedFeed.swift in Sources */,
 				A1000426000000000000001 /* FeedRepositories.swift in Sources */,
+				A1000522000000000000001 /* HomeViewModel.swift in Sources */,
+				A1000523000000000000001 /* HomeView.swift in Sources */,
+				A1000524000000000000001 /* ShowCardView.swift in Sources */,
+				A1000525000000000000001 /* AppServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +330,7 @@
 				A1000428000000000000001 /* FeedClientTests.swift in Sources */,
 				A1000429000000000000001 /* CachedFeedTests.swift in Sources */,
 				A1000430000000000000001 /* FeedRepositoryTests.swift in Sources */,
+				A1000526000000000000001 /* HomeViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

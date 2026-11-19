@@ -2,30 +2,20 @@
 //  ContentView.swift
 //  CAB
 //
-//  Placeholder root view for the Task 1 scaffold. Replaced in later tasks
-//  by the real navigation shell (Home, Resources, About, Attributions).
+//  Root view. For now it shows only Home; Task 10 replaces it with the
+//  full navigation shell (Home, Resources, About, Attributions) and the
+//  mini-player.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    @State private var home = HomeViewModel(repository: AppServices.shared.shows)
+
     var body: some View {
-        VStack(spacing: 12) {
-            Image(systemName: "waveform")
-                .font(.system(size: 56))
-                .foregroundStyle(.tint)
-                .accessibilityHidden(true)
-
-            Text("Christian Audio Broadcasting")
-                .font(.title2.bold())
-                .multilineTextAlignment(.center)
-
-            Text("Scaffold ready — build out begins at Task 2.")
-                .font(.subheadline)
-                .foregroundStyle(.secondary)
-                .multilineTextAlignment(.center)
+        NavigationStack {
+            HomeView(model: home)
         }
-        .padding()
     }
 }
 
