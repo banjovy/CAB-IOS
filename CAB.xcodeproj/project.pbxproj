@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1000011000000000000001 /* CABApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001000000000000001 /* CABApp.swift */; };
+		A1000012000000000000001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002000000000000001 /* ContentView.swift */; };
+		A1000013000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1000003000000000000001 /* Assets.xcassets */; };
+		A1000014000000000000001 /* CABTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000004000000000000001 /* CABTests.swift */; };
+		A1000212000000000000001 /* DecodingHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000202000000000000001 /* DecodingHelpers.swift */; };
+		A1000213000000000000001 /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000203000000000000001 /* Show.swift */; };
+		A1000214000000000000001 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000204000000000000001 /* Episode.swift */; };
+		A1000215000000000000001 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000205000000000000001 /* Resources.swift */; };
+		A1000216000000000000001 /* NowPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000206000000000000001 /* NowPlaying.swift */; };
+		A1000217000000000000001 /* ModelDecodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000207000000000000001 /* ModelDecodingTests.swift */; };
+		A1000218000000000000001 /* Fixtures in Resources */ = {isa = PBXBuildFile; fileRef = A1000208000000000000001 /* Fixtures */; };
+		A1000312000000000000001 /* EpisodeDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000302000000000000001 /* EpisodeDuration.swift */; };
+		A1000313000000000000001 /* FeedDateParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000303000000000000001 /* FeedDateParser.swift */; };
+		A1000314000000000000001 /* ShowCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000304000000000000001 /* ShowCatalog.swift */; };
+		A1000315000000000000001 /* ParsingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000305000000000000001 /* ParsingTests.swift */; };
+		A1000316000000000000001 /* ShowCatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000306000000000000001 /* ShowCatalogTests.swift */; };
+		A1000422000000000000001 /* FeedEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000402000000000000001 /* FeedEndpoints.swift */; };
+		A1000423000000000000001 /* FeedClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000403000000000000001 /* FeedClient.swift */; };
+		A1000424000000000000001 /* FeedCacheStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000404000000000000001 /* FeedCacheStore.swift */; };
+		A1000425000000000000001 /* CachedFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000405000000000000001 /* CachedFeed.swift */; };
+		A1000426000000000000001 /* FeedRepositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000406000000000000001 /* FeedRepositories.swift */; };
+		A1000427000000000000001 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000407000000000000001 /* MockURLProtocol.swift */; };
+		A1000428000000000000001 /* FeedClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000408000000000000001 /* FeedClientTests.swift */; };
+		A1000429000000000000001 /* CachedFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000409000000000000001 /* CachedFeedTests.swift */; };
+		A1000430000000000000001 /* FeedRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000410000000000000001 /* FeedRepositoryTests.swift */; };
+		A1000522000000000000001 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000502000000000000001 /* HomeViewModel.swift */; };
+		A1000523000000000000001 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000503000000000000001 /* HomeView.swift */; };
+		A1000524000000000000001 /* ShowCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000504000000000000001 /* ShowCardView.swift */; };
+		A1000525000000000000001 /* AppServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000505000000000000001 /* AppServices.swift */; };
+		A1000526000000000000001 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000506000000000000001 /* HomeViewModelTests.swift */; };
+		A1000622000000000000001 /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000602000000000000001 /* AudioTrack.swift */; };
+		A1000623000000000000001 /* PlaybackDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000603000000000000001 /* PlaybackDriver.swift */; };
+		A1000624000000000000001 /* AVPlaybackDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000604000000000000001 /* AVPlaybackDriver.swift */; };
+		A1000625000000000000001 /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000605000000000000001 /* AudioEngine.swift */; };
+		A1000627000000000000001 /* AudioEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000607000000000000001 /* AudioEngineTests.swift */; };
+		A1000628000000000000001 /* LiveAudioPlaybackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000608000000000000001 /* LiveAudioPlaybackTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1000030000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1000020000000000000001;
+			remoteInfo = CAB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1000001000000000000001 /* CABApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CABApp.swift; sourceTree = "<group>"; };
+		A1000002000000000000001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1000003000000000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1000004000000000000001 /* CABTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CABTests.swift; sourceTree = "<group>"; };
+		A1000202000000000000001 /* DecodingHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodingHelpers.swift; sourceTree = "<group>"; };
+		A1000203000000000000001 /* Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
+		A1000204000000000000001 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		A1000205000000000000001 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		A1000206000000000000001 /* NowPlaying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlaying.swift; sourceTree = "<group>"; };
+		A1000207000000000000001 /* ModelDecodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDecodingTests.swift; sourceTree = "<group>"; };
+		A1000208000000000000001 /* Fixtures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fixtures; sourceTree = "<group>"; };
+		A1000302000000000000001 /* EpisodeDuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDuration.swift; sourceTree = "<group>"; };
+		A1000303000000000000001 /* FeedDateParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDateParser.swift; sourceTree = "<group>"; };
+		A1000304000000000000001 /* ShowCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCatalog.swift; sourceTree = "<group>"; };
+		A1000305000000000000001 /* ParsingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsingTests.swift; sourceTree = "<group>"; };
+		A1000306000000000000001 /* ShowCatalogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCatalogTests.swift; sourceTree = "<group>"; };
+		A1000402000000000000001 /* FeedEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedEndpoints.swift; sourceTree = "<group>"; };
+		A1000403000000000000001 /* FeedClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedClient.swift; sourceTree = "<group>"; };
+		A1000404000000000000001 /* FeedCacheStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCacheStore.swift; sourceTree = "<group>"; };
+		A1000405000000000000001 /* CachedFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedFeed.swift; sourceTree = "<group>"; };
+		A1000406000000000000001 /* FeedRepositories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedRepositories.swift; sourceTree = "<group>"; };
+		A1000407000000000000001 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		A1000408000000000000001 /* FeedClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedClientTests.swift; sourceTree = "<group>"; };
+		A1000409000000000000001 /* CachedFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedFeedTests.swift; sourceTree = "<group>"; };
+		A1000410000000000000001 /* FeedRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedRepositoryTests.swift; sourceTree = "<group>"; };
+		A1000502000000000000001 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		A1000503000000000000001 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A1000504000000000000001 /* ShowCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCardView.swift; sourceTree = "<group>"; };
+		A1000505000000000000001 /* AppServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppServices.swift; sourceTree = "<group>"; };
+		A1000506000000000000001 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		A1000602000000000000001 /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
+		A1000603000000000000001 /* PlaybackDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackDriver.swift; sourceTree = "<group>"; };
+		A1000604000000000000001 /* AVPlaybackDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlaybackDriver.swift; sourceTree = "<group>"; };
+		A1000605000000000000001 /* AudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
+		A1000606000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1000607000000000000001 /* AudioEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngineTests.swift; sourceTree = "<group>"; };
+		A1000608000000000000001 /* LiveAudioPlaybackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveAudioPlaybackTests.swift; sourceTree = "<group>"; };
+		A1000040000000000000001 /* CAB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1000041000000000000001 /* CABTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CABTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1000050000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1000051000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1000060000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A1000061000000000000001 /* CAB */,
+				A1000062000000000000001 /* CABTests */,
+				A1000063000000000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1000061000000000000001 /* CAB */ = {
+			isa = PBXGroup;
+			children = (
+				A1000001000000000000001 /* CABApp.swift */,
+				A1000002000000000000001 /* ContentView.swift */,
+				A1000505000000000000001 /* AppServices.swift */,
+				A1000201000000000000001 /* Models */,
+				A1000301000000000000001 /* Catalog */,
+				A1000401000000000000001 /* Networking */,
+				A1000501000000000000001 /* Home */,
+				A1000601000000000000001 /* Audio */,
+				A1000003000000000000001 /* Assets.xcassets */,
+				A1000606000000000000001 /* Info.plist */,
+			);
+			path = CAB;
+			sourceTree = "<group>";
+		};
+		A1000601000000000000001 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				A1000602000000000000001 /* AudioTrack.swift */,
+				A1000603000000000000001 /* PlaybackDriver.swift */,
+				A1000604000000000000001 /* AVPlaybackDriver.swift */,
+				A1000605000000000000001 /* AudioEngine.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		A1000501000000000000001 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A1000502000000000000001 /* HomeViewModel.swift */,
+				A1000503000000000000001 /* HomeView.swift */,
+				A1000504000000000000001 /* ShowCardView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A1000401000000000000001 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A1000402000000000000001 /* FeedEndpoints.swift */,
+				A1000403000000000000001 /* FeedClient.swift */,
+				A1000404000000000000001 /* FeedCacheStore.swift */,
+				A1000405000000000000001 /* CachedFeed.swift */,
+				A1000406000000000000001 /* FeedRepositories.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A1000301000000000000001 /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				A1000302000000000000001 /* EpisodeDuration.swift */,
+				A1000303000000000000001 /* FeedDateParser.swift */,
+				A1000304000000000000001 /* ShowCatalog.swift */,
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
+		A1000201000000000000001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1000202000000000000001 /* DecodingHelpers.swift */,
+				A1000203000000000000001 /* Show.swift */,
+				A1000204000000000000001 /* Episode.swift */,
+				A1000205000000000000001 /* Resources.swift */,
+				A1000206000000000000001 /* NowPlaying.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1000062000000000000001 /* CABTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1000004000000000000001 /* CABTests.swift */,
+				A1000207000000000000001 /* ModelDecodingTests.swift */,
+				A1000305000000000000001 /* ParsingTests.swift */,
+				A1000306000000000000001 /* ShowCatalogTests.swift */,
+				A1000407000000000000001 /* MockURLProtocol.swift */,
+				A1000408000000000000001 /* FeedClientTests.swift */,
+				A1000409000000000000001 /* CachedFeedTests.swift */,
+				A1000410000000000000001 /* FeedRepositoryTests.swift */,
+				A1000506000000000000001 /* HomeViewModelTests.swift */,
+				A1000607000000000000001 /* AudioEngineTests.swift */,
+				A1000608000000000000001 /* LiveAudioPlaybackTests.swift */,
+				A1000208000000000000001 /* Fixtures */,
+			);
+			path = CABTests;
+			sourceTree = "<group>";
+		};
+		A1000063000000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1000040000000000000001 /* CAB.app */,
+				A1000041000000000000001 /* CABTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1000020000000000000001 /* CAB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1000070000000000000001 /* Build configuration list for PBXNativeTarget "CAB" */;
+			buildPhases = (
+				A1000080000000000000001 /* Sources */,
+				A1000050000000000000001 /* Frameworks */,
+				A1000090000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAB;
+			productName = CAB;
+			productReference = A1000040000000000000001 /* CAB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1000021000000000000001 /* CABTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1000071000000000000001 /* Build configuration list for PBXNativeTarget "CABTests" */;
+			buildPhases = (
+				A1000081000000000000001 /* Sources */,
+				A1000051000000000000001 /* Frameworks */,
+				A1000220000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1000031000000000000001 /* PBXTargetDependency */,
+			);
+			name = CABTests;
+			productName = CABTests;
+			productReference = A1000041000000000000001 /* CABTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					A1000020000000000000001 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					A1000021000000000000001 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = A1000020000000000000001;
+					};
+				};
+			};
+			buildConfigurationList = A1000072000000000000001 /* Build configuration list for PBXProject "CAB" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1000060000000000000001;
+			productRefGroup = A1000063000000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1000020000000000000001 /* CAB */,
+				A1000021000000000000001 /* CABTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1000090000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000013000000000000001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1000220000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000218000000000000001 /* Fixtures in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1000080000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000012000000000000001 /* ContentView.swift in Sources */,
+				A1000011000000000000001 /* CABApp.swift in Sources */,
+				A1000212000000000000001 /* DecodingHelpers.swift in Sources */,
+				A1000213000000000000001 /* Show.swift in Sources */,
+				A1000214000000000000001 /* Episode.swift in Sources */,
+				A1000215000000000000001 /* Resources.swift in Sources */,
+				A1000216000000000000001 /* NowPlaying.swift in Sources */,
+				A1000312000000000000001 /* EpisodeDuration.swift in Sources */,
+				A1000313000000000000001 /* FeedDateParser.swift in Sources */,
+				A1000314000000000000001 /* ShowCatalog.swift in Sources */,
+				A1000422000000000000001 /* FeedEndpoints.swift in Sources */,
+				A1000423000000000000001 /* FeedClient.swift in Sources */,
+				A1000424000000000000001 /* FeedCacheStore.swift in Sources */,
+				A1000425000000000000001 /* CachedFeed.swift in Sources */,
+				A1000426000000000000001 /* FeedRepositories.swift in Sources */,
+				A1000522000000000000001 /* HomeViewModel.swift in Sources */,
+				A1000523000000000000001 /* HomeView.swift in Sources */,
+				A1000524000000000000001 /* ShowCardView.swift in Sources */,
+				A1000525000000000000001 /* AppServices.swift in Sources */,
+				A1000622000000000000001 /* AudioTrack.swift in Sources */,
+				A1000623000000000000001 /* PlaybackDriver.swift in Sources */,
+				A1000624000000000000001 /* AVPlaybackDriver.swift in Sources */,
+				A1000625000000000000001 /* AudioEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1000081000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000014000000000000001 /* CABTests.swift in Sources */,
+				A1000217000000000000001 /* ModelDecodingTests.swift in Sources */,
+				A1000315000000000000001 /* ParsingTests.swift in Sources */,
+				A1000316000000000000001 /* ShowCatalogTests.swift in Sources */,
+				A1000427000000000000001 /* MockURLProtocol.swift in Sources */,
+				A1000428000000000000001 /* FeedClientTests.swift in Sources */,
+				A1000429000000000000001 /* CachedFeedTests.swift in Sources */,
+				A1000430000000000000001 /* FeedRepositoryTests.swift in Sources */,
+				A1000526000000000000001 /* HomeViewModelTests.swift in Sources */,
+				A1000627000000000000001 /* AudioEngineTests.swift in Sources */,
+				A1000628000000000000001 /* LiveAudioPlaybackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1000031000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1000020000000000000001 /* CAB */;
+			targetProxy = A1000030000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A1000100000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1000101000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1000110000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CAB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cabroadcasting.cab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1000111000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CAB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cabroadcasting.cab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1000120000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cabroadcasting.cab.CABTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAB.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CAB";
+			};
+			name = Debug;
+		};
+		A1000121000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cabroadcasting.cab.CABTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAB.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CAB";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1000070000000000000001 /* Build configuration list for PBXNativeTarget "CAB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000110000000000000001 /* Debug */,
+				A1000111000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1000071000000000000001 /* Build configuration list for PBXNativeTarget "CABTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000120000000000000001 /* Debug */,
+				A1000121000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1000072000000000000001 /* Build configuration list for PBXProject "CAB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000100000000000000001 /* Debug */,
+				A1000101000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1000000000000000000001 /* Project object */;
+}
