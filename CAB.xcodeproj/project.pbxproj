@@ -37,6 +37,12 @@
 		A1000524000000000000001 /* ShowCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000504000000000000001 /* ShowCardView.swift */; };
 		A1000525000000000000001 /* AppServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000505000000000000001 /* AppServices.swift */; };
 		A1000526000000000000001 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000506000000000000001 /* HomeViewModelTests.swift */; };
+		A1000622000000000000001 /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000602000000000000001 /* AudioTrack.swift */; };
+		A1000623000000000000001 /* PlaybackDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000603000000000000001 /* PlaybackDriver.swift */; };
+		A1000624000000000000001 /* AVPlaybackDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000604000000000000001 /* AVPlaybackDriver.swift */; };
+		A1000625000000000000001 /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000605000000000000001 /* AudioEngine.swift */; };
+		A1000627000000000000001 /* AudioEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000607000000000000001 /* AudioEngineTests.swift */; };
+		A1000628000000000000001 /* LiveAudioPlaybackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000608000000000000001 /* LiveAudioPlaybackTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +86,13 @@
 		A1000504000000000000001 /* ShowCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCardView.swift; sourceTree = "<group>"; };
 		A1000505000000000000001 /* AppServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppServices.swift; sourceTree = "<group>"; };
 		A1000506000000000000001 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		A1000602000000000000001 /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
+		A1000603000000000000001 /* PlaybackDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackDriver.swift; sourceTree = "<group>"; };
+		A1000604000000000000001 /* AVPlaybackDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlaybackDriver.swift; sourceTree = "<group>"; };
+		A1000605000000000000001 /* AudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
+		A1000606000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1000607000000000000001 /* AudioEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngineTests.swift; sourceTree = "<group>"; };
+		A1000608000000000000001 /* LiveAudioPlaybackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveAudioPlaybackTests.swift; sourceTree = "<group>"; };
 		A1000040000000000000001 /* CAB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1000041000000000000001 /* CABTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CABTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -121,9 +134,22 @@
 				A1000301000000000000001 /* Catalog */,
 				A1000401000000000000001 /* Networking */,
 				A1000501000000000000001 /* Home */,
+				A1000601000000000000001 /* Audio */,
 				A1000003000000000000001 /* Assets.xcassets */,
+				A1000606000000000000001 /* Info.plist */,
 			);
 			path = CAB;
+			sourceTree = "<group>";
+		};
+		A1000601000000000000001 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				A1000602000000000000001 /* AudioTrack.swift */,
+				A1000603000000000000001 /* PlaybackDriver.swift */,
+				A1000604000000000000001 /* AVPlaybackDriver.swift */,
+				A1000605000000000000001 /* AudioEngine.swift */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 		A1000501000000000000001 /* Home */ = {
@@ -182,6 +208,8 @@
 				A1000409000000000000001 /* CachedFeedTests.swift */,
 				A1000410000000000000001 /* FeedRepositoryTests.swift */,
 				A1000506000000000000001 /* HomeViewModelTests.swift */,
+				A1000607000000000000001 /* AudioEngineTests.swift */,
+				A1000608000000000000001 /* LiveAudioPlaybackTests.swift */,
 				A1000208000000000000001 /* Fixtures */,
 			);
 			path = CABTests;
@@ -315,6 +343,10 @@
 				A1000523000000000000001 /* HomeView.swift in Sources */,
 				A1000524000000000000001 /* ShowCardView.swift in Sources */,
 				A1000525000000000000001 /* AppServices.swift in Sources */,
+				A1000622000000000000001 /* AudioTrack.swift in Sources */,
+				A1000623000000000000001 /* PlaybackDriver.swift in Sources */,
+				A1000624000000000000001 /* AVPlaybackDriver.swift in Sources */,
+				A1000625000000000000001 /* AudioEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +363,8 @@
 				A1000429000000000000001 /* CachedFeedTests.swift in Sources */,
 				A1000430000000000000001 /* FeedRepositoryTests.swift in Sources */,
 				A1000526000000000000001 /* HomeViewModelTests.swift in Sources */,
+				A1000627000000000000001 /* AudioEngineTests.swift in Sources */,
+				A1000628000000000000001 /* LiveAudioPlaybackTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +508,7 @@
 				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CAB/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -502,6 +537,7 @@
 				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CAB/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
